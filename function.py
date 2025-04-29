@@ -16,6 +16,16 @@ def multiplicarDoisNumeros(nota_01, nota_02):
 
 #somarDoisNumeros(25, 94)
 
-multiplicarDoisNumeros(25, 49)
+#multiplicarDoisNumeros(25, 49)
+
+def cadastrar(nome, idade):
+    data = {
+        "nome": nome,
+        "idade": idade
+    }
+
+    return print(data)
+
+cadastrar ("gabriel", "16")
 
 
